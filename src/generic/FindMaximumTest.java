@@ -9,7 +9,7 @@ class FindMaximumTest {
 	@Test
 	void findMaximum_Of_3Integers() {
 		FindMaximum findMaximum = new FindMaximum();
-		String currentMood = findMaximum.findMax("abc", "ghi", "def");
+		assertEquals("ghi", findMaximum.findMax("abc","ghi","def"));
 	}
 
 }

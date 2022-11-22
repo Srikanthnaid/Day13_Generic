@@ -19,7 +19,7 @@ public class FindMaximum {
 
 	public static void main(String[] args) {
 		
-		FindMaximum maximum = new FindMaximum();
+		//FindMaximum maximum = new FindMaximum();
 		System.out.println("Maximum of among 3 integers is "+findMax(5.5f, 8.25f, 2.0f));
 
 	}

@@ -10,7 +10,7 @@ class FindMaximumTest {
 	@Test
 	void findMaximum_Of_3Integers() {
 		findMaximum = new FindMaximum();
-		Integer currentMood = findMaximum.findMax(5, 8, 2);
+		Float currentMood = findMaximum.findMax(5.5f, 8.5f, 2.0f);
 	}
 
 }

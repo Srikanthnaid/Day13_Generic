@@ -2,10 +2,10 @@ package generic;
 
 public class FindMaximum {
 	
-	// Method with parameters as Integer
-	public static Integer findMax(Integer a,Integer b,Integer c) {
+	// Method with parameters as float data type
+	public static Float findMax(Float a,Float b,Float c) {
 		
-		int max = 0;
+		Float max = 0.0f;
 		// comparing numbers using compareTo method.
 		if(a.compareTo(b)>0 && a.compareTo(c)>0) {
 			max = a;
@@ -20,7 +20,7 @@ public class FindMaximum {
 	public static void main(String[] args) {
 		
 		FindMaximum maximum = new FindMaximum();
-		System.out.println("Maximum of among 3 integers is "+findMax(5, 8, 2));
+		System.out.println("Maximum of among 3 integers is "+findMax(5.5f, 8.25f, 2.0f));
 
 	}
 
